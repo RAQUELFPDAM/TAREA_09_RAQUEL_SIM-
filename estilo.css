@@ -1,0 +1,105 @@
+body{
+    background-image: url("IMG/fondo.jpg");
+    background-size: cover;
+    font-size: 20px;
+    font-family: "Trocchi";
+    font-weight: bold;
+    color: rgb(78, 37, 6);
+    margin: 30px;
+}
+nav{
+    background-color: rgb(78, 37, 6);
+    height: 50px;
+    width: 100%;
+    filter: drop-shadow(10px 10px 10px rgb(78, 37, 6));
+}
+nav li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgba(248, 218, 180, 0.781);
+    float: left;
+    border-radius: 40%;
+    list-style: none;
+    
+}
+nav li a {
+    color: rgb(78, 37, 6);
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav  li:hover{
+    background-color: rgb(143, 220, 223);
+    transition-duration: 0.8s;
+}
+li a:active{
+    color: rgba(248, 226, 196, 0.781);
+}
+
+article{
+    margin: 30px;
+    padding: 10px;
+    padding-bottom: 40px;
+    border:rgb(78, 37, 6); 
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px 0;
+}
+h1{
+    font-family: "Rye";
+    font-size: 50px;
+}
+h3{
+    font-family: "Bevan";
+}
+h4{
+    font-family: "Bevan";
+}
+hr{
+    border-color: rgb(124, 60, 12) ;
+}
+span{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+audio{
+    outline: none;
+}
+
+section a{
+    text-decoration: none;
+    color: rgb(114, 55, 10) ;
+}
+img{
+    border-radius: 5px 5px 5px 5px;
+    filter: drop-shadow(10px 10px 10px rgb(78, 37, 6));
+}
+
+.cent{
+    display:block;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.desc {
+    text-align: center;
+    font-size: small;
+}
+.izq{
+    float: left;
+    width:min-content;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.der{
+    float: right;
+    width:min-content;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.li{
+list-style: none;
+}
